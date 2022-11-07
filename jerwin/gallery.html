@@ -1,0 +1,175 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initials-scale=1.0">
+	<title>gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	</head>
+	<script src="https://kit.fontawesome.com/547e5bbad9.js" crossorigin="anonymous"></script>
+<body>
+		<div class="navbar">
+		<a href="home.html"><img src="pic/logo2.png" class="logo"></a>
+			<nav>
+			<div id="navigator">
+				<ul>
+					<li><a href="home.html"><i class="fa-solid fa-house">&nbsp &nbsp HOME</a></i></li>
+					
+					<li><a href="gallery.html"><i class="fa-solid fa-image">&nbsp &nbsp GALLERY</a></i></li>
+					<li><a href="services.html"><i class="fa-solid fa-users-line">&nbsp &nbsp SERVICES</a></i></li>
+					<li><a href="about.html"><i class="fa-solid fa-circle-info">&nbsp &nbsp ABOUT US</a></i></li>
+					<li><a href="contact.html"><i class="fa-solid fa-envelope">&nbsp &nbsp CONTACT US</a></i></li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h4>GALLERY</h4><br><br><br><br><br><br>
+			</div>
+		</div>
+		<h2 style="text-align:center">Multiple Slideshows</h2>
+
+<h2>Boracay Island</h2>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="pic/boracay.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="pic/boracay1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="pic/boracay3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="pic/boracay5.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<center><br>
+<div class="details" id="detail1">
+<br>
+<h5>Why Boracay Island is famous? <br>
+
+The island boasts of crystal azure waters, powdery white sand, abundant flora and fauna, and diverse marine life. No wonder it remains as one of the best islands in the world and was recognized by Conde Nast Traveler and Travel+Leisure. <br>You have not fully experienced Boracay if you haven’t seen the nearby islands. Book an island hopping trip and discover the best beaches in Boracay. Have a whole day dedicated to exploring the natural beauty of the nearby islands and beaches such as Crystal Cove Island, Piknikan Island, Crocodile Island, Hinugtan Beach, Magic Island, Puka Beach, and Carabao Island, to name a few.</h5>
+</div>
+</center>
+
+<h2>Palawan Island</h2>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="pic/palawan.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="pic/palawan1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="pic/palawan2.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div><Br>
+<center>
+<div class="details" id="detail1">
+<br>
+<h5>Why Palawan Island is famous? <br>
+
+Palawan, one of the best places to visit in the Philippines, is consistently ranked as one of the best islands in the world, and for a good reason. It boasts white sand beaches and islands, clear blue waters, a spectacular variety of marine life and shipwreck sites, and majestic towering limestone cliffs. <br>With its lush jungles, white sand beaches, caves, dive sites, and unspoiled nature, Palawan is one of the major draws for tourism in the Philippines. Located in the western Philippines, it is a long but narrow strip of land best known for some of the best beaches and marine life you will see in Southeast</h5>
+</div>
+</center>
+
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+
+<!----cut---->
+<br><br><br><br><br><br><br>
+<div class="footer">
+<br>
+<br>
+<div class="basic">
+<h3 class="places">PLACES TO STAY</h3>
+<br>
+Seaside Cottages
+<br>
+<br>
+West Coast Trial Lodge
+<br>
+<br>
+Wild Coast Cottages
+<br>
+<br>
+Camping
+</div>
+<div class="foodtxt">
+<h3 class="food">FOOD & DRINK</h3>
+<br>
+Renfrew Pub
+<br>
+<br>
+Coastal Kitchen
+<br>
+</div>
+<div class="thingstxt">
+<h3 class="things">THINGS TO DO</h3>
+<br>
+Renfrew Glants
+<br>
+<br>
+Avatar Grove
+<br>
+<br>
+Botanical beach
+<br>
+<br>
+Parks & Recreation
+<br>
+<br>
+Charters & Tours
+<br>
+<br>
+</div>
+<div class="gettingtxt">
+<h3 class="getting">GETTING HERE</h3>
+<br>
+Driving From AKLAN
+<br>
+<br>
+Pacific Ocean
+<br>
+<br>
+Bus or Boat
+</div>
+<div class="copyright">
+<hr>
+<h3 class="copyright">Copyright @ 2020 coder(sample only). All Rights Reserved.</h3>
+</div>
+</div>
+</body>
+</html>

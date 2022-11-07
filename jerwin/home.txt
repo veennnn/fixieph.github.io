@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initials-scale=1.0">
+	<title>Project</title>
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+		<div class="navbar">	
+			<img src="pic/logo2.png" class="logo">
+			<nav>
+			<div id="navigator">
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+		</div>
+	<div class="row">
+			<div class="col">
+				<h1>Your Dream Vacation</h1><br><br><br><br><br><br>
+			</div>
+		</div>
+	<div class="col"><a href="gallery.html">
+			<div class="card card1">
+			<h5>Boracay Island</h5>
+		
+		</div>
+			<div class="card card2">
+			<h5>Palawan Island</h5>
+		</div>	
+		</div>
+		</a>
+	</div><br><br>
+	<!----footer na po ito----->
+<br><br><br><br><br><br><br>
+<div class="footer">
+<br>
+<br>
+<div class="basic">
+<h3 class="places">PLACES TO STAY</h3>
+<br>
+Seaside Cottages
+<br>
+<br>
+West Coast Trial Lodge
+<br>
+<br>
+Wild Coast Cottages
+<br>
+<br>
+Camping
+</div>
+<div class="foodtxt">
+<h3 class="food">FOOD & DRINK</h3>
+<br>
+Renfrew Pub
+<br>
+<br>
+Coastal Kitchen
+<br>
+</div>
+<div class="thingstxt">
+<h3 class="things">THINGS TO DO</h3>
+<br>
+Renfrew Glants
+<br>
+<br>
+Avatar Grove
+<br>
+<br>
+Botanical beach
+<br>
+<br>
+Parks & Recreation
+<br>
+<br>
+Charters & Tours
+<br>
+<br>
+</div>
+<div class="gettingtxt">
+<h3 class="getting">GETTING HERE</h3>
+<br>
+Driving From AKLAN
+<br>
+<br>
+Pacific Ocean
+<br>
+<br>
+Bus or Boat
+</div>
+<div class="copyright">
+<hr>
+<h3 class="copyright">Copyright @ 2020 coder(sample only). All Rights Reserved.</h3>
+</div>
+</body>
+</html>
