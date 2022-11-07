@@ -1,0 +1,478 @@
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: White;
+       
+}
+
+small {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+h1{
+	text-align: center;
+	font-family:Arial; 
+	letter-spacing: 3px;
+	font-size: 15px;
+	color: Red;
+
+}
+
+p{
+	text-align: center;
+	font-family:Arial; 
+	letter-spacing: 3px;
+	font-size: 15px;
+	color: Black;
+
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+
+
+nav {
+  width: 65%;
+  margin: 0 auto;
+  background: White;
+  padding: 50px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+
+
+
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #333;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+
+.details{
+	display:inline-block;
+	width:460px;
+	height:440px;
+	margin:0;
+	padding: 0;
+	border: 0;
+	
+}
+#detail1 {
+	background-color: white;
+	width: 370;
+	height:300;
+}
+
+h2{
+	font-family:Arial; 
+	letter-spacing: 3px;
+	font-size: 15px;
+	color: Black;
+
+}
+
+
+#wrapper{
+		margin: auto;
+		width: 1140px;
+		padding: 10px;
+		background-image: url(../pic/bg1.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+}
+
+.aventonC {
+	display:inline-block;
+	width:350px;
+	height:300px;
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-size: 100% 100%;
+	
+}
+
+#aventonC1 {
+		background-image: url('https://cdn.webshopapp.com/shops/212063/files/155379413/aventon-cordoba-2018-complete-bike-polished.jpg');
+		background-repeat: no-repeat;
+}
+
+#aventonC1:hover {
+	background-image: url('https://st2.depositphotos.com/1431107/6226/v/450/depositphotos_62261367-stock-illustration-sold-out-vector-stamp.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+
+.aventonB {
+	display:inline-block;
+	width:350px;
+	height:325px;
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-size: 100% 100%;
+	
+}
+
+#aventonB1 {
+		background-image: url('black.jpg');
+		background-repeat: no-repeat;
+}
+
+#aventonB1:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.cine {
+	display:inline-block;
+	width:370px;
+	height: 100px;
+    margin:10;
+	padding: 160;
+	border: ;
+	background-size: 100% 100%;
+    
+    object-fit: cover;
+
+	
+}
+
+#cine1 {
+		background-image: url('21.jpg');
+		background-repeat: no-repeat;
+}
+
+#cine1:hover {
+	background-image: url('https://img.freepik.com/premium-photo/10-percent-white-background-3d-rendering-gold-metal-discount-10_131956-23.jpg?w=2000');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.tsunami {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-size: 100% 100%;
+	
+}
+
+#tsunami1 {
+		background-image: url('loll2s.jpg');
+		background-repeat: no-repeat;
+}
+
+#tsunami1:hover {
+	background-image: url('https://st2.depositphotos.com/1431107/6226/v/450/depositphotos_62261367-stock-illustration-sold-out-vector-stamp.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.tsunami2 {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-size: 100% 100%;
+	
+}
+
+#tsunami2 {
+		background-image: url('tubog.jpg');
+		background-repeat: no-repeat;
+}
+
+#tsunami2:hover {
+	background-image: url('https://img.freepik.com/premium-photo/10-percent-white-background-3d-rendering-gold-metal-discount-10_131956-23.jpg?w=2000');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.tsunami3 {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-size: 100% 100%;
+	
+}
+
+#tsunami3 {
+		background-image: url('t3.jpg');
+		background-repeat: no-repeat;
+}
+
+#tsunami3:hover {
+	background-image: url('https://st2.depositphotos.com/1431107/6226/v/450/depositphotos_62261367-stock-illustration-sold-out-vector-stamp.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.w {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding:0;
+	border: 0;
+	background-size: 100% 98%;
+	
+}
+
+#w1 {
+		background-image: url('l1.jpg');
+		background-repeat: no-repeat;
+}
+
+#w1:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.l2 {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding:0;
+	border: 0;
+	background-size: 100% 98%;
+	
+}
+
+#l2 {
+		background-image: url('l2.jpg');
+		background-repeat: no-repeat;
+}
+
+#l2:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.l3 {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding:0;
+	border: 0;
+	background-size: 100% 98%;
+	
+}
+
+#l3 {
+		background-image: url('l3.jpg');
+		background-repeat: no-repeat;
+}
+
+#l3:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.c1 {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding:0;
+	border: 0;
+	background-size: 100% 98%;
+	
+}
+
+#c1 {
+		background-image: url('c1.jpg');
+		background-repeat: no-repeat;
+}
+
+#c1:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.c2 {
+	display:inline-block;
+	width:360px;
+	height:315px;
+	margin:0;
+	padding:0;
+	border: 0;
+	background-size: 100% 98%;
+	
+}
+
+#c2 {
+		background-image: url('c2.jpg');
+		background-repeat: no-repeat;
+}
+
+#c2:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+.c3 {
+	display:inline-block;
+	width:360px;
+	height:335px;
+	margin:0;
+	padding:0;
+	border: 0;
+	background-size: 100% 94%;
+	
+}
+
+#c3 {
+		background-image: url('c3.jpg');
+		background-repeat: no-repeat;
+}
+
+#c3:hover {
+	background-image: url('https://t3.ftcdn.net/jpg/03/98/03/84/360_F_398038481_Uacvc83Xu0sE7CLtIjJrHCIDbwfKlUE5.jpg');
+	transition-duration: 0.8s;
+	transition-delay: 0.2s;
+	
+
+}
+
+
+
+
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #white;
+    font-family: sans-serif;
+}
+footer{
+    position: relative;
+    bottom:0 ;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: 8vw;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
