@@ -15,8 +15,8 @@ body{
     background-color: gray;
     color: black;
 }
-#logo{
-    background-Image: url(https://img.freepik.com/premium-vector/amazing-classics-custom-car-festival-poster-sports-classic-car_64637-212.jpg?w=2000);
+#logo
+{    background-Image: url(https://img.freepik.com/premium-vector/amazing-classics-custom-car-festival-poster-sports-classic-car_64637-212.jpg?w=2000);
     background-Image: no repeat;
     width: 155px;
     height: 155px;
